@@ -32,7 +32,7 @@ def run_quiz(questions):
             print("Correct Answer !!!")
             score += 1
         else:
-            print("Wrong !!! The correct answer is ", questions['answer'])
+            print("Wrong !!! The correct answer is ", question['answer'])
 
     print(f"you get {score} as you did {len(questions)} questions correct")
 
